@@ -9,7 +9,7 @@ public class RemoveAllNonAlphaCharacters {
       
       for(int i = 0; i < inputString.length(); ++i){
          if(Character.isLetter(inputString.charAt(i))){
-            System.out.println(inputString.charAt(i));
+            System.out.print(inputString.charAt(i));
          }
       }
       System.out.println();
